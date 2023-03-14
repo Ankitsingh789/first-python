@@ -1,0 +1,94 @@
+#String--------------------
+x = "Hello World"
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+#Int-----------------------
+x = 30
+
+print(x)
+
+print(type(x))
+
+#Float-------------------- 
+x = 20.60
+
+print(x)
+
+print(type(x))
+
+#Complex--------------------
+x = 1j
+
+print(x)
+print(type(x))
+
+#List-----------------------------
+x = ["apple","banana","cherry"]
+
+print(x)
+print(type(x))
+
+#Tuple---------------------------
+x = ("apple","banana","cherry")
+
+print(x)
+print(type(x))
+
+#Range--------------------------------
+x = range(7)
+
+print(x)
+print(type(x))
+
+#Dict------------------------------
+x = {"name","John","age" : 35}
+ 
+print(x)
+print(type(x))
+
+#Set-----------------------------------
+x = {"apple","banana","cherry"}
+
+print(x)
+print(type(x))
+
+#Frozenset-----------------------------
+x = frozenset({"apple","banana","cherry"})
+
+print(x)
+print(type(x))
+
+#Bool-----------------------------------
+x = True
+
+print(x)
+print(type(x))
+
+#Bytes-----------------------------
+x = b"Hello"
+
+print(x)
+print(type(x))
+
+#bytearray()----------------------------
+x = bytearrray(5)
+
+print(x)
+print(type(x))
+
+#Memoryview(bytes5)------------------------
+x = memoryview(bytes(5))
+
+print(x)
+print(type(x))
+
+#NoneType-----------------------------------
+x = None
+
+print(x)
+print(type(x))
